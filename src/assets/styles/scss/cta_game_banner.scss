@@ -1,0 +1,46 @@
+.banner {
+    height: 516px;
+    background-image: url(../../images/Stardew_Valley_Banner.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    overflow: hidden;
+    padding: 90px;
+    min-width: 1200px;
+
+    .desc {
+        margin-top: 240px;
+    }
+
+    .desc p {
+        width: max-content;
+        font-size: 38px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "MT";
+        text-shadow: 2px 2px 15px #000;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        width: 800px;
+    
+        button {
+            width: 300px;
+            font-family: "Noto Sans";
+            font-size: 20px;
+        }
+
+        a {
+                text-decoration: none;
+                color: var(--font_color);
+        }
+    }
+}

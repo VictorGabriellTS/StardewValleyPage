@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 90px;
+    overflow: hidden;
+    min-width: 1200px;
+    
+    .sd_logo img {
+        width: 150px;
+    }
+
+    .pages_link ul {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        list-style: none;
+    }
+
+    .pages_link ul li a {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 150ms;
+    }
+
+    .pages_link ul li a:hover {
+        color: var(--font_h);
+    }
+
+    .buy_game {
+        margin-left: auto;
+        
+        button {
+            width: max-content;
+            height: 50px;
+            font-family: "SV"
+        }
+        
+        a {
+                text-decoration: none;
+                color: var(--font_color);
+                font-family: "SV";
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.d_btn {
+    border: 2px solid var(--btn_border_color);
+    background-color: var(--btn_bgc);
+    color: var(--font_color_1);
+    font-size: 24px;
+    padding: 4px 40px;
+    cursor: pointer;
+    transition: all 150ms;
+    box-shadow: 0 3px var(--btn_border_color);
+}
+
+.d_btn:hover {
+    background-color: var(--btn_bgc_h);
+}
+
+.d_btn:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}

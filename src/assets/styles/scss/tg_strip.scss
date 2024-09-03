@@ -1,0 +1,45 @@
+.strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bgc_strip);
+    padding: 4px 90px;
+    gap: 30px;
+    min-width: 1200px;
+
+    .tg_img img {
+        width: 100px;
+        scale: 2.5;
+        translate: 50px 0;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    
+        p {
+            font-family: "SV";
+            font-size: 26px;
+            width: max-content;
+            margin-left: 70px;
+        }
+
+        button {
+            width: max-content;
+            font-size: 18px;
+            border: 2px solid #81ae77;
+            box-shadow: 0 3px #81ae77;
+            background-color: #5b8b50;
+        }
+
+        button:hover {
+            background-color: #4b7242;
+        }
+
+        button:active {
+            box-shadow: none;
+        }
+    }
+}

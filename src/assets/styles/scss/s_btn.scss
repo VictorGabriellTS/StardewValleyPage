@@ -1,0 +1,19 @@
+.s_btn {
+    border: 2px solid var(--btn_border_color_2);
+    background-color: var(--btn_bgc_2);
+    color: var(--font_color_2);
+    font-size: 24px;
+    padding: 4px 40px;
+    cursor: pointer;
+    transition: all 150ms;
+    box-shadow: 0 3px var(--btn_border_color_2);
+}
+
+.s_btn:hover {
+    background-color: var(--btn_bgc_h_2);
+}
+
+.s_btn:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}
